@@ -1,0 +1,20 @@
+.stacks {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.stack-tags {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.stack-tags span {
+    background: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
