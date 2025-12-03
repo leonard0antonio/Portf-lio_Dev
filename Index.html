@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Antônio - Dev</title>
     <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
 
     <!-- Header -->
@@ -20,9 +22,10 @@
 
     <!-- Hero -->
     <section id="inicio" class="hero">
-        <img src="minha-foto.png" class="hero-img" alt="Foto do Leonardo">
-        <h2>Olá, eu sou <span>Leonardo Antônio</span></h2>
-        <p>Desenvolvedor Front-end • Estudante de ADS • Criador de experiências digitais modernas</p>
+        <div class="hero-content">
+            <h2>Olá, eu sou <span>Leonardo Antônio</span></h2>
+            <p>Desenvolvedor Front-end • Estudante de ADS • Criador de experiências digitais modernas</p>
+        </div>
     </section>
 
     <!-- Stacks -->
@@ -71,9 +74,10 @@
     <script>
         // Carregar footer.html automaticamente
         fetch("footer.html")
-        .then(res => res.text())
-        .then(html => document.querySelector("div[w3-include-html]").innerHTML = html);
+            .then(res => res.text())
+            .then(html => document.querySelector("div[w3-include-html]").innerHTML = html);
     </script>
 
 </body>
+
 </html>
